@@ -11,44 +11,44 @@
         <Representation id="V300" codecs="avc1.64001e" bandwidth="300000" width="640" height="360" frameRate="30" sar="1:1"/>
      </AdaptationSet>
 
-      <AdaptationSet Label="English" contentType="audio" mimeType="audio/mp4" lang="en" segmentAlignment="true" startWithSAP="1">
+      <AdaptationSet Label="English" contentType="audio" mimeType="audio/mp4" lang="eng" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-         <SegmentTemplate startNumber="1" initialization="$RepresentationID$/init.mp4" duration="2" media="$RepresentationID$/$Number$.m4s"/>
+         <SegmentTemplate startNumber="1" initialization="A48/init.mp4" duration="2" media="A48/$Number$.m4s"/>
          <Representation id="audio_en" codecs="mp4a.40.2" bandwidth="48000" audioSamplingRate="48000">
             <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
          </Representation>
       </AdaptationSet>
       <AdaptationSet Label="Spanish" contentType="audio" mimeType="audio/mp4" lang="es" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-         <SegmentTemplate startNumber="1" initialization="$RepresentationID$/init.mp4" duration="2" media="$RepresentationID$/$Number$.m4s"/>
+         <SegmentTemplate startNumber="1" initialization="A48/init.mp4" duration="2" media="A48/$Number$.m4s"/>
          <Representation id="audio_es" codecs="mp4a.40.2" bandwidth="48000" audioSamplingRate="48000">
             <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
          </Representation>
       </AdaptationSet>
       <AdaptationSet Label="German" contentType="audio" mimeType="audio/mp4" lang="de" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-         <SegmentTemplate startNumber="1" initialization="$RepresentationID$/init.mp4" duration="2" media="$RepresentationID$/$Number$.m4s"/>
+         <SegmentTemplate startNumber="1" initialization="A48/init.mp4" duration="2" media="A48/$Number$.m4s"/>
          <Representation id="audio_de" codecs="mp4a.40.2" bandwidth="48000" audioSamplingRate="48000">
             <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
          </Representation>
       </AdaptationSet>
       <AdaptationSet Label="Greek" contentType="audio" mimeType="audio/mp4" lang="el" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-         <SegmentTemplate startNumber="1" initialization="$RepresentationID$/init.mp4" duration="2" media="$RepresentationID$/$Number$.m4s"/>
+         <SegmentTemplate startNumber="1" initialization="A48/init.mp4" duration="2" media="A48/$Number$.m4s"/>
          <Representation id="audio_el" codecs="mp4a.40.2" bandwidth="48000" audioSamplingRate="48000">
             <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
          </Representation>
       </AdaptationSet>
       <AdaptationSet Label="French" contentType="audio" mimeType="audio/mp4" lang="fr" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-         <SegmentTemplate startNumber="1" initialization="$RepresentationID$/init.mp4" duration="2" media="$RepresentationID$/$Number$.m4s"/>
+         <SegmentTemplate startNumber="1" initialization="A48/init.mp4" duration="2" media="A48/$Number$.m4s"/>
          <Representation id="audio_fr" codecs="mp4a.40.2" bandwidth="48000" audioSamplingRate="48000">
             <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
          </Representation>
       </AdaptationSet>
       <AdaptationSet Label="Portuguese" contentType="audio" mimeType="audio/mp4" lang="pt" segmentAlignment="true" startWithSAP="1">
          <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-         <SegmentTemplate startNumber="1" initialization="$RepresentationID$/init.mp4" duration="2" media="$RepresentationID$/$Number$.m4s"/>
+         <SegmentTemplate startNumber="1" initialization="A48/init.mp4" duration="2" media="A48/$Number$.m4s"/>
          <Representation id="audio_pt" codecs="mp4a.40.2" bandwidth="48000" audioSamplingRate="48000">
             <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
          </Representation>
